@@ -1,6 +1,6 @@
-# consultor_de_precos
+# gerenciador_de_massa
 
-A new Flutter project.
+O projeto foi desenvolvido no mac e testado no ios.
 
 ## Getting Started
 
