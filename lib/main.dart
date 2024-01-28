@@ -3,7 +3,6 @@ import 'package:gerenciador_de_massa/mock/mock_students.dart';
 import 'package:gerenciador_de_massa/models/student.dart';
 import 'package:gerenciador_de_massa/providers/student/student_provider.dart';
 import 'package:gerenciador_de_massa/providers/student/students_history_provider.dart';
-import 'package:gerenciador_de_massa/screens/signup_screen.dart';
 import 'package:gerenciador_de_massa/screens/student/home_insert_screen.dart';
 import 'package:gerenciador_de_massa/screens/student/home_screen.dart';
 import 'package:gerenciador_de_massa/screens/student/student_history_insert_screen.dart';
@@ -14,7 +13,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
 import 'routes/route_paths.dart';
-import 'screens/signin_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -42,8 +40,6 @@ class App extends StatelessWidget {
         title: "Flutter Demo",
         theme: ThemeData(primarySwatch: Colors.green),
         routes: {
-          RoutePaths.SignInScreen: (context) => const SignInScreen(),
-          RoutePaths.SignUpScreen: (context) => const SignUpScreen(),
           RoutePaths.HomeScreen: (context) => const HomeScreen(),
           RoutePaths.StudentInsertScreen: (context) =>
               const StudentInsertScreen(),

@@ -48,18 +48,6 @@ class DrawerNavigation extends StatelessWidget {
           ),
           ...generateMenuList(
             context,
-          ),
-          ListTile(
-            leading: const Icon(Icons.exit_to_app),
-            title: const Text('sair'),
-            trailing: const Icon(Icons.arrow_right),
-            onTap: () {
-              final auth = FirebaseAuth.instance;
-              auth.signOut().then((_) {
-                Navigator.of(context)
-                    .pushReplacementNamed(RoutePaths.SignInScreen);
-              });
-            },
           )
         ],
       ),
