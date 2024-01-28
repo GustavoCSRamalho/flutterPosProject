@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "370628128960",
+    "firebase_url": "https://gustavoposflutter-default-rtdb.firebaseio.com",
+    "project_id": "gustavoposflutter",
+    "storage_bucket": "gustavoposflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370628128960:android:0da6ec5a755a6ca6747d25",
+        "android_client_info": {
+          "package_name": "com.example.consultor_de_precos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmJAQtIFePzlU6iv67NYepEinDQWzhZCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
